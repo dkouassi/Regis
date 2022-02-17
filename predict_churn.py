@@ -22,7 +22,7 @@ def make_predictions(df):
 
 
 if __name__ == "__main__":
-    df = load_data('/Users/didierkouassi/Desktop/MSDS600/MSDS600WEEK5/MSDSWEEK5ASSIGNMENT/ASSIGNMENT/new_churn_data.csv')
+    df = load_data('/Users/........./Desktop/MSDS600/MSDS600WEEK5/MSDSWEEK5ASSIGNMENT/ASSIGNMENT/new_churn_data.csv')
     predictions = make_predictions(df)
     print('predictions:')
     print(predictions)
